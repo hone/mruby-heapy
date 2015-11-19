@@ -6,4 +6,6 @@ MRuby::Gem::Specification.new('mruby-heapy') do |spec|
 
   spec.add_dependency 'mruby-print', :core => 'mruby-print'
   spec.add_dependency 'mruby-mtest', :mgem => 'mruby-mtest'
+  spec.add_dependency 'mruby-json',  :mgem => 'mruby-json'
+  spec.add_dependency 'mruby-string-ext', :core => 'mruby-string-ext'
 end
